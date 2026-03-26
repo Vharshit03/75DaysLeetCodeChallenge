@@ -5,11 +5,11 @@ public:
         double avg=INT_MIN;
         int m=0,n=nums.size();
 
-        for(int i=0;i<nums.size();i++){
+        for(int i=0;i<n;i++){
+
             if(m>=k){
                avg = max(avg,sum/k);
-               sum -= nums[i-k];
-               sum += nums[i];
+               sum = sum - nums[i-k] + nums[i];
             }
             else{
             sum += nums[i];
@@ -17,10 +17,7 @@ public:
             }
         }
 
-        sum /= k;
-        avg = max(avg,sum);
-
-    
+        avg = max(avg,sum/k);
         return avg;
         
     }
