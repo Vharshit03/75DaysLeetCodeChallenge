@@ -11,15 +11,12 @@ public:
             count[s[r]-'A']++;
             maxf = max(maxf,count[s[r]-'A']);
 
-            if((r-l+1)-maxf>k){
+            while((r-l+1)-maxf>k){
                 count[s[l]-'A']--;
-                l=l+1;
-                maxf=0;
+                l++;
             }
 
-            if((r-l+1)-maxf<=k){
-                maxlen = max(maxlen,r-l+1);
-            }
+            maxlen = max(maxlen,r-l+1);
 
             r++;
         }
