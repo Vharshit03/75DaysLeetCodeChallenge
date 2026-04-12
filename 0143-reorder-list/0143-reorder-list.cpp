@@ -25,24 +25,23 @@ public:
 
         ListNode* prev = nullptr;
         while(second){
-            ListNode* temp = second->next;
+            slow = second->next;
             second->next = prev;
             prev = second;
-            second = temp;
+            second = slow;
         }
 
         second = prev;
         ListNode* first = head;
 
-        ListNode* temp1;
-        ListNode* temp2;
+
         while(second){
-            temp1 = first->next;
-            temp2 = second->next;
+            slow = first->next;
+            fast = second->next;
             first->next = second;
-            second->next = temp1;
-            first = temp1;
-            second = temp2;
+            second->next = slow;
+            first =slow;
+            second = fast;
         }
 
 
