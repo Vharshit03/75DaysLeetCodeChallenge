@@ -1,12 +1,12 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        int ans=NULL;
+        int check=NULL;
 
         for(int i=0;i<nums.size(); i++){
-            ans = ans^nums[i];
+            check = check^nums[i];//xor: sets 0 when same number comes again
         }
 
-        return ans;
+        return check;
     }
 };
