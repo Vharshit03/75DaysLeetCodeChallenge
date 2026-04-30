@@ -6,19 +6,22 @@ public:
         string s2 = s;
         reverse(s2.begin(),s2.end());
 
-        vector<vector<int>>dp(m+1,vector<int>(m+1,0));
+        vector<int>dp(m+1,0);
 
         for(int i=1; i<=m;i++){
+            int prev,curr=0;
             for(int j=1;j<=m;j++){
 
+                prev = curr;
+                curr = dp[j];
                 if(s[i-1]==s2[j-1])
-                dp[i][j] = 1 + dp[i-1][j-1];
+                dp[j] = 1 + prev;
                 else
-                dp[i][j] = max(dp[i][j-1],dp[i-1][j]);
+                dp[j] = max(dp[j],dp[j-1]);
             }
         }
         
 
-        return dp[m][m];
+        return dp[m];
     }
 };
