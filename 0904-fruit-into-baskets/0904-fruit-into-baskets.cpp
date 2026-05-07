@@ -8,14 +8,16 @@ public:
         while(r<n){
             mp[fruits[r]]++;
 
-            while(mp.size()>2){
+            if(mp.size()>2){
                 mp[fruits[l]]--;
                 if(mp[fruits[l]]==0) mp.erase(fruits[l]);
 
                 l++;
             }
 
+            if(mp.size()<=2)
             maxlen = max(maxlen,r-l+1);
+            
             r++;
         }
 
