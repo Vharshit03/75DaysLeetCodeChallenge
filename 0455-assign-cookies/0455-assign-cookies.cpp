@@ -6,9 +6,9 @@ public:
         sort(g.begin(),g.end());
         sort(s.begin(),s.end());
 
-        while(r<m && l<n){
+        while(r<m){
 
-            if(g[l]<=s[r])
+            if(l<n && g[l]<=s[r])
             l++;
 
             r = r+1;
