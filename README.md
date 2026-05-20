@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0704-binary-search) |
 | [0739-daily-temperatures](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0739-daily-temperatures) |
+| [0860-lemonade-change](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0860-lemonade-change) |
 | [0875-koko-eating-bananas](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0875-koko-eating-bananas) |
 | [0904-fruit-into-baskets](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0904-fruit-into-baskets) |
 | [0977-squares-of-a-sorted-array](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0977-squares-of-a-sorted-array) |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0011-container-with-most-water) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0455-assign-cookies](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0455-assign-cookies) |
+| [0860-lemonade-change](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0860-lemonade-change) |
 ## Sliding Window
 |  |
 | ------- |
