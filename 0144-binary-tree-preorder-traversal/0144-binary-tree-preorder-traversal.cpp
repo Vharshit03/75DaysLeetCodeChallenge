@@ -19,6 +19,8 @@ public:
         pre.push_back(root->val);
         PreOrder(root->left,pre);
         PreOrder(root->right,pre);
+
+        return;
     }
     vector<int> preorderTraversal(TreeNode* root) {
 
