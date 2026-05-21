@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0014-longest-common-prefix](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0020-valid-parentheses) |
+| [0044-wildcard-matching](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0072-edit-distance) |
 | [0125-valid-palindrome](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0125-valid-palindrome) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0044-wildcard-matching) |
 | [0062-unique-paths](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0064-minimum-path-sum) |
@@ -190,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0011-container-with-most-water) |
+| [0044-wildcard-matching](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0455-assign-cookies](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0455-assign-cookies) |
 | [0860-lemonade-change](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0860-lemonade-change) |
@@ -255,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0021-merge-two-sorted-lists) |
+| [0044-wildcard-matching](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0044-wildcard-matching) |
 | [0143-reorder-list](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0206-reverse-linked-list) |
 | [0394-decode-string](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0394-decode-string) |
