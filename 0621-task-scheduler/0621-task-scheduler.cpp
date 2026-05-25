@@ -1,45 +1,45 @@
 class Solution {
 public:
-    int leastInterval(vector<char>& tasks, int p) {
-
-        int n = tasks.size();
-        unordered_map<char, int> mp;
+    int leastInterval(vector<char>& tasks, int n) {
         
-        for(char &ch : tasks) {
-            mp[ch]++;
+        vector<int> mp(26,0);
+        for(auto ch:tasks){
+            mp[ch-'A']++;
         }
 
-        priority_queue<int> pq; //max heap
-        //we want to finish the process which is most occurring (having highest frequency)
-        //so that we don't have to finish in the last with p gaps.
-        int time = 0;
-        
-        for(auto &it : mp) {
-            pq.push(it.second);
+        priority_queue<int>pq;
+
+        for(int i=0;i<26;i++){
+            if(mp[i]>0)
+            pq.push(mp[i]);
         }
-        
-        while(!pq.empty()) {
+
+        int time=0;
+
+        while(!pq.empty()){
+
             vector<int> temp;
-            for(int i = 1; i<=p+1; i++) {
-                //filling first p+1 characters
-                if(!pq.empty()) {
-                    temp.push_back(pq.top()-1); //finishing one instance of each process
+            for(int i=0;i<n+1;i++){
+
+                if(!pq.empty()){
+                    int freq = pq.top();
                     pq.pop();
+                    freq--;
+                    temp.push_back(freq);
                 }
             }
-            
-            for(int &freq : temp) {
-                if(freq > 0)
-                    pq.push(freq);
+
+            for(auto t:temp){
+                if(t>0)
+                pq.push(t);
             }
-            
-            if(pq.empty()) //all processes finished
+
+            if(pq.empty()){
                 time += temp.size();
-            else
-                time += (p+1); //we finished p+1 tasks above in the loop
-            
+            }
+            else time += n+1;
         }
-        
+
         return time;
     }
 };
