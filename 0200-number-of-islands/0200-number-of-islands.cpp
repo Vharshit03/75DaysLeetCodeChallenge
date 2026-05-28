@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool check(int i,int j,int row,int col){
-        return i>-1&&i<row && j>-1&&j<col;
+        return i>-1&&i<row && j>-1&&j<col; //edge case outergrid cases
     }
     void Bfs(vector<vector<char>>&grid,int i,int j){
         
