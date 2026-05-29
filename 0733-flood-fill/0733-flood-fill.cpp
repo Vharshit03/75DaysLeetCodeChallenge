@@ -1,46 +1,44 @@
 class Solution {
 public:
-     bool check(int i,int j,int row,int col){//check edge cases
-        return i>-1&&i<row && j>-1&&j<col;
+    bool check(int i,int j,int row,int col){
+        return i>-1 && i<row && j>-1 && j<col;
     }
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
         
-        int m = image.size();
-        int n = image[0].size();
-        queue<pair<int,int>> q;
-        int org = image[sr][sc];
+        int src = image[sr][sc];
+        int n = image.size();
+        int m = image[0].size();
+        vector<vector<int>> modify(n);
 
-        vector<vector<int>> modified(m);
-
-        for(int i=0;i<m;i++){
-            modified[i] = image[i];
+        for(int i=0;i<n;i++){
+            modify[i] = image[i];
         }
 
+        queue<pair<int,int>> q;
+        modify[sr][sc] = color;
+        image[sr][sc] = -1;
         q.push({sr,sc});
 
         int row[4] = {-1,1,0,0};
         int col[4] = {0,0,-1,1};
-        pair<int,int> pixel;
-
 
         while(!q.empty()){
-
-            pixel = q.front();
+            int i = q.front().first;
+            int j = q.front().second;
             q.pop();
 
-            modified[pixel.first][pixel.second]= color;
-            image[pixel.first][pixel.second]=-1;
+            for(int k=0;k<4;k++){
+                int x = i + row[k];
+                int y = j + col[k];
 
-            for(int k=0; k<4; k++){
-                int mx = pixel.first + row[k];
-                int ny = pixel.second + col[k];
-
-                if(check(mx,ny,m,n) && image[mx][ny]==org){
-                    q.push({mx,ny});
+                if(check(x,y,n,m) && image[x][y]==src){
+                    q.push({x,y});
+                    modify[x][y] = color;
+                    image[x][y] = -1;
                 }
             }
         }
 
-        return modified;
+        return modify;
     }
 };
