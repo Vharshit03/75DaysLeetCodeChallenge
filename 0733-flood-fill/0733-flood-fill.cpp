@@ -15,8 +15,6 @@ public:
         }
 
         queue<pair<int,int>> q;
-        modify[sr][sc] = color;
-        image[sr][sc] = -1;
         q.push({sr,sc});
 
         int row[4] = {-1,1,0,0};
@@ -27,14 +25,15 @@ public:
             int j = q.front().second;
             q.pop();
 
+            image[i][j] = -1;
+            modify[i][j] = color;
+
             for(int k=0;k<4;k++){
                 int x = i + row[k];
                 int y = j + col[k];
 
                 if(check(x,y,n,m) && image[x][y]==src){
                     q.push({x,y});
-                    modify[x][y] = color;
-                    image[x][y] = -1;
                 }
             }
         }
