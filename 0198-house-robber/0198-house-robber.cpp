@@ -1,9 +1,8 @@
 class Solution {
 public:
     int rob(vector<int>& nums) {
-        
         int n = nums.size();
-        int first=0,second=0,third;
+        int first=0,second=0,third;//most optimal app
 
         for(int i=n-1;i>-1;i--){
 
