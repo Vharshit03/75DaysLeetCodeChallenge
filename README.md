@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0005-longest-palindromic-substring) |
 | [0014-longest-common-prefix](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0020-valid-parentheses) |
 | [0044-wildcard-matching](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0044-wildcard-matching) |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0005-longest-palindromic-substring) |
 | [0044-wildcard-matching](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0055-jump-game) |
@@ -199,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0016-3sum-closest) |
