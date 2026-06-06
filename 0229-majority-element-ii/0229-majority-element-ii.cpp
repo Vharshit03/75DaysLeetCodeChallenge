@@ -30,7 +30,7 @@ public:
         for(auto num:nums){
             if(el1==num)
             cnt1++;
-            if(el2==num)
+            else if(el2==num)
             cnt2++;
         }
 
@@ -41,9 +41,6 @@ public:
 
         if(cnt2 >= mini)
         list.push_back(el2);
-
-        sort(list.begin(),list.end());
-
         return list;
         
     }
