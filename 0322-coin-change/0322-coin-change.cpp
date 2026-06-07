@@ -15,7 +15,7 @@ public:
 
         for(int i=2;i<=n;i++){
             for(int j=coins[i-1];j<=amount;j++){
-                dp[j] = min(dp[j-coins[i-1]] + 1, dp[j]);
+                dp[j] = min(dp[j-coins[i-1]] + 1, dp[j]);//fewest one
             }
         }
 
