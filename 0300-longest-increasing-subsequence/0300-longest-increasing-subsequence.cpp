@@ -10,7 +10,7 @@ public:
 
             start=0,end = size;
             index = size+1;
-            while(start<=end){
+            while(start<=end){ // binary search logN
                 int mid = start + (end-start)/2;
 
                 if(LIS[mid]<nums[i])
