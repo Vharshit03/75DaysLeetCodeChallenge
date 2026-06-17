@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0036-valid-sudoku) |
+| [0040-combination-sum-ii](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0040-combination-sum-ii) |
 | [0045-jump-game-ii](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0045-jump-game-ii) |
 | [0049-group-anagrams](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0049-group-anagrams) |
 | [0055-jump-game](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0055-jump-game) |
@@ -462,6 +463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0040-combination-sum-ii](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0040-combination-sum-ii) |
 | [0212-word-search-ii](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0212-word-search-ii) |
 ## Data Stream
 |  |
