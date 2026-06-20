@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0496-next-greater-element-i) |
 | [0518-coin-change-ii](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0518-coin-change-ii) |
+| [0540-single-element-in-a-sorted-array](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0621-task-scheduler) |
 | [0643-maximum-average-subarray-i](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0643-maximum-average-subarray-i) |
@@ -253,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0278-first-bad-version](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0278-first-bad-version) |
 | [0287-find-the-duplicate-number](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0300-longest-increasing-subsequence) |
+| [0540-single-element-in-a-sorted-array](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0875-koko-eating-bananas) |
 ## Greedy
