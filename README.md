@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0008-string-to-integer-atoi](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0008-string-to-integer-atoi) |
 | [0014-longest-common-prefix](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0020-valid-parentheses) |
+| [0038-count-and-say](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0038-count-and-say) |
 | [0044-wildcard-matching](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0049-group-anagrams) |
 | [0067-add-binary](https://github.com/Vharshit03/75DaysLeetCodeChallenge/tree/master/0067-add-binary) |
